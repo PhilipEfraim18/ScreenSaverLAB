@@ -1,0 +1,16 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: column;
+}
+@media screen and (max-width: 600px) {
+    #page{
+       background-color: yellowgreen; 
+    }
+}
+@media screen and (min-width: 600px){
+    #page{
+        background-color: aqua;
+    }
+}
+
